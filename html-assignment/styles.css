@@ -7,10 +7,10 @@ header,footer {background-color: lightblue;}
 ul{ list-style-type: square;
     color: purple;
 }
-#hobbies li:nth-child(odd) {
+.hobbies li:nth-child(odd) {
     background-color: yellowgreen;
 }
-ul#navlist { list-style-type: none;
+ul.navlist { list-style-type: none;
     background-color: lightblue;
    border: 2px solid darkblue;
 }
