@@ -1,0 +1,107 @@
+
+   
+header{
+    height: 40vh;
+    background-image: url('../images/lone-starfish-wide.jpg');
+    
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* place heading lower in the header */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+  h1{ color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    
+  }
+
+  h2{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    }
+
+    h3,h4{
+        font-size: 1.25rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+    }
+  
+body{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: auto;
+    margin: 5rem;
+    padding: 0.5rem;
+    background-color: hsla(171, 64%, 91%, 0.903);
+}
+
+.border{
+    border: 2px solid rgba(0,0,0,0.6);
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+
+img{
+    float: left;
+    margin-right: 1rem;
+    width: 350px;
+    height: 350px;
+}
+ul.nav{
+    display: flex;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.nav li{
+    flex: 1 1 33.3333%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ul.nav li + li{
+    border-left: 1px solid rgba(0,0,0,0.25);
+}
+
+ul.nav a{
+    display: block;
+    width: 100%;
+    padding: 0.75rem 0;
+    text-decoration: none;
+    color: inherit;
+}
+.content-container{
+    border: 0.1rem solid rgba(0,0,0,0.6);
+    padding: 3rem;
+}
+.radio-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.send-button{
+    display: block;
+    margin-top: 1rem;
+}
+
